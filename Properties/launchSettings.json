@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleSendMail": {
+      "commandName": "Project",
+      "commandLineArgs": " --port 25 --useAsync  "
+    }
+  }
+}

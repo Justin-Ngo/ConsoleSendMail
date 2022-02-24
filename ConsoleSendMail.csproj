@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Company>Juyn</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mailkit" Version="3.1.1" />
+  </ItemGroup>
+
+</Project>
