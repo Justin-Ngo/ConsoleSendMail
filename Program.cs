@@ -236,6 +236,7 @@ namespace ConsoleSendMail
 			Console.WriteLine("		example: ConsoleSendMail.exe --to \"sample@sample.com, sample2@sample.com\"");
 			Console.WriteLine("									 --from \"sample@sample.com\"");
 			Console.WriteLine("									 --subject \"Example console send mail call\"");
+			Console.WriteLine("									 --body \"This is an example\"");
 			Console.WriteLine("									 --port 25");
 			Console.WriteLine("									 --host smtp.gmail.com");
 			Console.WriteLine("Options:");
@@ -248,6 +249,7 @@ namespace ConsoleSendMail
 			Console.WriteLine("	--cc");
 			Console.WriteLine("	--bcc");
 			Console.WriteLine("	--subject");
+			Console.WriteLine("	--body");
 			Console.WriteLine("	--attach		Path to attachment");
 			Console.WriteLine("	--username");
 			Console.WriteLine("	--password");
