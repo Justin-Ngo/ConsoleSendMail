@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J36zswcGp/41eQmiU8LAnTC+BlU/ol/pORDFgk8B1JQo5ZQqyluVJFnnsTMiBPmgsrP9ZS9vm1vihJ/CBneYfg==",
+  "dgSpecHash": "eQZxyLYs2xv8TZgYb3CdXkECuIWWUuu/ERy/5kVPh75jx0LD43jhBPKlUCH+09hONnqnECKqniaa9/372DYhhQ==",
   "success": true,
   "projectFilePath": "E:\\GDrive\\Software Development\\ConsoleSendMail\\ConsoleSendMail.csproj",
   "expectedPackageFiles": [
@@ -8,10 +8,7 @@
     "C:\\Users\\Juyn\\.nuget\\packages\\mimekit\\3.1.1\\mimekit.3.1.1.nupkg.sha512",
     "C:\\Users\\Juyn\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
     "C:\\Users\\Juyn\\.nuget\\packages\\system.formats.asn1\\6.0.0\\system.formats.asn1.6.0.0.nupkg.sha512",
-    "C:\\Users\\Juyn\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.0\\system.security.cryptography.pkcs.6.0.0.nupkg.sha512",
-    "C:\\Users\\Juyn\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.2\\microsoft.netcore.app.runtime.win-x64.6.0.2.nupkg.sha512",
-    "C:\\Users\\Juyn\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.2\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.2.nupkg.sha512",
-    "C:\\Users\\Juyn\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.2\\microsoft.aspnetcore.app.runtime.win-x64.6.0.2.nupkg.sha512"
+    "C:\\Users\\Juyn\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.0\\system.security.cryptography.pkcs.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

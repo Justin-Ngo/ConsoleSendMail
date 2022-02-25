@@ -1,0 +1,2 @@
+E:\GDrive\Software Development\ConsoleSendMail\bin\Release\net6.0\publish\win-x64\ConsoleSendMail.pdb
+E:\GDrive\Software Development\ConsoleSendMail\bin\Release\net6.0\publish\win-x64\ConsoleSendMail.exe
