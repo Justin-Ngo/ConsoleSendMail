@@ -2,7 +2,7 @@
   "profiles": {
     "ConsoleSendMail": {
       "commandName": "Project",
-      "commandLineArgs": " --port 25 --useAsync  "
+      "commandLineArgs": "--to \"lala@yes.com, keay@yes.com\" --from \"lala@yes.com\" --subject \"test\" --body \"this is just a test\" --port 25 --host \"mailserv.mmm.com\""
     }
   }
 }

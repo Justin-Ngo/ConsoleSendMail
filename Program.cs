@@ -93,28 +93,28 @@ namespace ConsoleSendMail
 				// accepts comma-separated list so... new MailMessage(fromMail, addresses.replace(";", ",")
 				foreach (var address in to.Split(delimiters, StringSplitOptions.RemoveEmptyEntries))
 				{
-					message.To.Add(new MailboxAddress(null, address));
+					message.To.Add(new MailboxAddress(null, address.Trim()));
 				}
 			}
 			if (from != null)
 			{
 				foreach (var address in from.Split(delimiters, StringSplitOptions.RemoveEmptyEntries))
 				{
-					message.From.Add(new MailboxAddress(null, address));
+					message.From.Add(new MailboxAddress(null, address.Trim()));
 				}
 			}
 			if (cc != null)
 			{
 				foreach (var address in cc.Split(delimiters, StringSplitOptions.RemoveEmptyEntries))
 				{
-					message.Cc.Add(new MailboxAddress(null, address));
+					message.Cc.Add(new MailboxAddress(null, address.Trim()));
 				}
 			}
 			if (bcc != null)
 			{
 				foreach (var address in bcc.Split(delimiters, StringSplitOptions.RemoveEmptyEntries))
 				{
-					message.Bcc.Add(new MailboxAddress(null, address));
+					message.Bcc.Add(new MailboxAddress(null, address.Trim()));
 				}
 			}
 			message.Subject = subject;
@@ -131,7 +131,7 @@ namespace ConsoleSendMail
 				using (var client = new SmtpClient())
 				{
 					client.Connect(host, port, (MailKit.Security.SecureSocketOptions)SslOptions); // Casted Integer to Enum
-
+					// alternative way of casting: (MailKit.Security.SecureSocketOptions)Enum.ToObject(typeof(MailKit.Security.SecureSocketOptions), SslOptions)
 					if (username != null && password != null)
 					{
 						client.Authenticate(username, password);
